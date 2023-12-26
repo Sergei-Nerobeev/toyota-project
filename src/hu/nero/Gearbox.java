@@ -18,5 +18,6 @@ public class Gearbox {
   @Override
   public String toString() {
     return type;
+
   }
 }

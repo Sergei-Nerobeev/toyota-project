@@ -1,4 +1,4 @@
-package hu.nero;
+package hu.nero.car;
 
 public class Gearbox {
   private String type;

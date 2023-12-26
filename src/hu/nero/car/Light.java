@@ -1,9 +1,9 @@
 package hu.nero.car;
 
-public class Lamps {
+public class Light {
   private boolean isActive = false;
 
-  public Lamps(boolean isActive) {
+  public Light(boolean isActive) {
     this.isActive = isActive;
   }
 
@@ -11,7 +11,4 @@ public class Lamps {
     return isActive;
   }
 
-  public void setActive(boolean active) {
-    isActive = active;
-  }
 }

@@ -1,17 +1,14 @@
 package hu.nero.car;
 
 public class Tank {
-  private int levelOfFuelInTank;
+  private boolean isEmpty = false;
 
-  public Tank(int levelOfFuelInTank) {
-    this.levelOfFuelInTank = levelOfFuelInTank;
+  public Tank(boolean isEmpty) {
+    this.isEmpty = isEmpty;
   }
 
-  public int getLevelOfFuelTank() {
-    return levelOfFuelInTank;
+  public boolean getIsEmpty() {
+    return isEmpty;
   }
 
-  public void setLevelOfFuelTank(int levelOfFuelTank) {
-    this.levelOfFuelInTank = levelOfFuelTank;
-  }
 }

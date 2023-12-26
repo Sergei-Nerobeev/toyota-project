@@ -7,7 +7,7 @@ public class Engine {
     this.isActive = isActive;
   }
 
-  public boolean isActive() {
+  public boolean getIsActive() {
     return isActive;
   }
 

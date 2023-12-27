@@ -36,3 +36,15 @@ I
 src/hu/nero/car1/Car.java,e/0/e08be4ac0695d8a41f5fde55992ca341d4e1cbee
 [
 +src/hu/nero/car1/equipments/Equipments.java,5/8/58d9194205e3a6940929d157cc976aa7b10ab70f
+K
+src/hu/nero/car/Runner.java,0/3/03e5be33280fd733505019ded7d5069f385646d4
+U
+%src/hu/nero/car/TransmissionType.java,8/5/85e94af0e3455528ca52af3e9127161f6018a942
+J
+src/hu/nero/car/Wheel.java,b/a/baa5bb7f9535ba80021cfcef57a9e9053739e239
+M
+src/hu/nero/car/FuelTank.java,b/f/bf99ebcb08b6c802243fb25540e569a8be55fc5a
+U
+%src/hu/nero/car/ElectricalSystem.java,3/7/37822f5ca4b84553c18b17429dd722c712e8094c
+K
+src/hu/nero/car/Lights.java,f/f/ff552d286749098d54d8c23d165cec78458685ec

@@ -30,3 +30,9 @@ K
 src/hu/nero/car/Litght.java,d/d/dd87923a9299f6831c233174d1deb48393948699
 J
 src/hu/nero/car/Light.java,d/e/de01f1cb1dda2206354285e13f5ed3b34bfa22c2
+T
+$src/hu/nero/car1/equipments/Car.java,b/f/bf000bff7d685bdee93277a86b418fd0e41412ce
+I
+src/hu/nero/car1/Car.java,e/0/e08be4ac0695d8a41f5fde55992ca341d4e1cbee
+[
++src/hu/nero/car1/equipments/Equipments.java,5/8/58d9194205e3a6940929d157cc976aa7b10ab70f

@@ -4,21 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20fcd462-e6df-43b4-ba16-e321e6bb9b99" name="Changes" comment="add classes">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/a/4a57d5070e54ef5ccdc06755f2995b5671bfc4d8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/b/0/b08f1ab659fbdd998f45c0def99188f980cc899b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/e/2/e2b3a68cfd7032924e0283de9b7fc5f38631ec07" beforeDir="false" />
+    <list default="true" id="20fcd462-e6df-43b4-ba16-e321e6bb9b99" name="Changes" comment="add exception">
+      <change afterPath="$PROJECT_DIR$/src/hu/nero/car1/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/hu/nero/car1/equipments/Equipments.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/4/a/4a57d5070e54ef5ccdc06755f2995b5671bfc4d8" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/b/0/b08f1ab659fbdd998f45c0def99188f980cc899b" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/e/2/e2b3a68cfd7032924e0283de9b7fc5f38631ec07" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hu/nero/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/car/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/car/Electricity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/car/Electricity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/car/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/car/Engine.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/car/Tank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/car/Tank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/car/Tire.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/car/Tire.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -97,12 +90,21 @@
       <option name="project" value="LOCAL" />
       <updated>1703586811736</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add exception">
+      <option name="closed" value="true" />
+      <created>1703609791648</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703609791648</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start" />
     <MESSAGE value="add classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="add classes" />
+    <MESSAGE value="add exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="add exception" />
   </component>
 </project>

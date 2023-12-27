@@ -3,7 +3,7 @@
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 G
-src/hu/nero/Runner.java,7/e/7ee3a54072ca2d0e65c792fa7e3cbb66554ab1c5
+src/hu/nero/Runner.java,7\e\7ee3a54072ca2d0e65c792fa7e3cbb66554ab1c5
 S
 #.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
 ]
@@ -11,40 +11,18 @@ S
 B
 toyota-project.iml,d\a\da7af6fa2e3c5cc1cca02eb0781ad54ba9273d39
 H
-src/hu/nero/car/Car.java,d/9/d9945169174166bf31e53e480a917fb2313736af
-I
-src/hu/nero/car/Tire.java,4/0/40fa112484a9a743e214147d81a4af11807055c8
-I
-src/hu/nero/car/Tank.java,b/e/be2f3b460e17cf190bff1acedb9f203ea02fa6b5
+src/hu/nero/car/Car.java,d\9\d9945169174166bf31e53e480a917fb2313736af
 K
 src/hu/nero/car/Engine.java,f/f/ff8bd03cda34dcea93dc57ec27c24e17e1e82246
 J
-src/hu/nero/car/Lamps.java,c/9/c9d130b23424fa53d7012137d3dcd6dd1a2a816a
-P
- src/hu/nero/car/Electricity.java,b/7/b7e1bee47f55201d05b6a757d5a657da76d7b131
-L
-src/hu/nero/car/Gearbox.java,e/d/edd5975aeb45f8f228b5ebf831d4aaebd555acde
-\
-,src/hu/nero/exception/StartCarException.java,e/5/e5bed3a6dc343379daec6d1064034add5114bc15
-K
-src/hu/nero/car/Litght.java,d/d/dd87923a9299f6831c233174d1deb48393948699
-J
 src/hu/nero/car/Light.java,d/e/de01f1cb1dda2206354285e13f5ed3b34bfa22c2
-T
-$src/hu/nero/car1/equipments/Car.java,b/f/bf000bff7d685bdee93277a86b418fd0e41412ce
-I
-src/hu/nero/car1/Car.java,e/0/e08be4ac0695d8a41f5fde55992ca341d4e1cbee
-[
-+src/hu/nero/car1/equipments/Equipments.java,5/8/58d9194205e3a6940929d157cc976aa7b10ab70f
-K
-src/hu/nero/car/Runner.java,0/3/03e5be33280fd733505019ded7d5069f385646d4
 U
 %src/hu/nero/car/TransmissionType.java,8/5/85e94af0e3455528ca52af3e9127161f6018a942
 J
-src/hu/nero/car/Wheel.java,b/a/baa5bb7f9535ba80021cfcef57a9e9053739e239
+src/hu/nero/car/Wheel.java,b\a\baa5bb7f9535ba80021cfcef57a9e9053739e239
 M
 src/hu/nero/car/FuelTank.java,b/f/bf99ebcb08b6c802243fb25540e569a8be55fc5a
 U
 %src/hu/nero/car/ElectricalSystem.java,3/7/37822f5ca4b84553c18b17429dd722c712e8094c
-K
-src/hu/nero/car/Lights.java,f/f/ff552d286749098d54d8c23d165cec78458685ec
+R
+"src/hu/nero/car/PassengersCar.java,0\0\00f7766dee5cd3363b19c1f65764b94779b08d3f

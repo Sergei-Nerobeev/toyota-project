@@ -11,7 +11,7 @@ public class Wheel {
 
   public void replaceWheel(Wheel wheel) {
     if (this.radius == wheel.getRadius()) {
-      this.radius = wheel.getRadius()
+      this.radius = wheel.getRadius();
     }
   }
 

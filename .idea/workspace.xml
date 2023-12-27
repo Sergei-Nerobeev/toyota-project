@@ -5,18 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20fcd462-e6df-43b4-ba16-e321e6bb9b99" name="Changes" comment="Start Project">
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/Runner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/car/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/car/ElectricalSystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/car/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/car/FuelTank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/car/Lights.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/car/TransmissionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/car/Wheel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7ee3a54072ca2d0e65c792fa7e3cbb66554ab1c5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7ee3a54072ca2d0e65c792fa7e3cbb66554ab1c5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/nero/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/car/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/nero/car/ElectricalSystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/car/ElectricalSystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/nero/car/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/car/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/nero/car/FuelTank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/car/FuelTank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/nero/car/Lights.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/car/Light.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +106,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703698805380</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Start Project">
+      <option name="closed" value="true" />
+      <created>1703701420787</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703701420787</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

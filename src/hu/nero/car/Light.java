@@ -1,9 +1,9 @@
 package hu.nero.car;
 
-public class Engine {
+public class Light {
   private boolean isOn;
 
-  public Engine() {
+  public Light() {
     this.isOn = true;
   }
 }

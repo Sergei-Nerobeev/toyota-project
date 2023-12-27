@@ -10,7 +10,7 @@ public abstract class Car {
   private FuelTank fuelTank;
   private Engine engine;
   private ElectricalSystem electricalSystem;
-  private Lights lights;
+  private Light light;
 
   public Car(String color, int maxSpeed, TransmissionType transmissionType, double price) {
     this.color = color;
@@ -21,7 +21,7 @@ public abstract class Car {
     this.fuelTank = new FuelTank();
     this.engine = new Engine();
     this.electricalSystem = new ElectricalSystem();
-    this.lights = new Lights();
+    this.light = new Light();
 
     for (int i = 0; i < 4; i++) {
       wheels[i] = new Wheel();

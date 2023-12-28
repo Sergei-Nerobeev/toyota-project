@@ -50,7 +50,8 @@ public abstract class Car {
   public void stopMoving() {
     isMoving = false;
   }
-  public void tornOnLight(){
+
+  public void tornOnLight() {
     light.tornOn();
   }
 

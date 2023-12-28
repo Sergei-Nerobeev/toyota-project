@@ -11,6 +11,13 @@ public abstract class Car {
   private Engine engine;
   private ElectricalSystem electricalSystem;
   private Light light;
+  private boolean cruiseControl;
+  private boolean roofState;
+  private int cargoCapacity;
+  private boolean usbPort;
+  private boolean miniFridge;
+  private boolean spareWheel;
+  private boolean powerOutlet;
 
   public Car(String color, int maxSpeed, TransmissionType transmissionType, double price) {
     this.color = color;
@@ -27,5 +34,24 @@ public abstract class Car {
       wheels[i] = new Wheel();
 
     }
+    this.cruiseControl = false;
+    this.roofState = false;
+    this.cargoCapacity = 0;
+    this.usbPort = false;
+    this.miniFridge = false;
+    this.spareWheel = false;
+    this.powerOutlet = false;
   }
+
+  public abstract void additionalOption(); // interface?
+
+  public abstract void startMoving() throws StartCarException;
+
+  public void stopMoving() {
+    isMoving = false;
+  }
+  public void tornOnLight(){
+    light.tornOn();
+  }
+
 }

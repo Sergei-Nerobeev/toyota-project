@@ -6,4 +6,11 @@ public class Light {
   public Light() {
     this.isOn = true;
   }
+  public void tornOn(){
+    if(isOn){
+      System.out.println("Light on");
+    } else {
+      System.out.println("Light is not working");
+    }
+  }
 }

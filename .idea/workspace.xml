@@ -4,17 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20fcd462-e6df-43b4-ba16-e321e6bb9b99" name="Changes" comment="Start Project">
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/car/StartCarException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/model/Camry.java" afterDir="false" />
+    <list default="true" id="20fcd462-e6df-43b4-ba16-e321e6bb9b99" name="Changes" comment="Start new Project">
+      <change afterPath="$PROJECT_DIR$/src/hu/nero/car/TypeCar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7ee3a54072ca2d0e65c792fa7e3cbb66554ab1c5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7ee3a54072ca2d0e65c792fa7e3cbb66554ab1c5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hu/nero/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hu/nero/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/car/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/car/Light.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/car/Light.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/car/PassengersCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/car/PassengersCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/nero/car/PassengersCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/nero/model/Camry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/model/Camry.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +87,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.9-corretto-17.0.9-f644763e9732-ebaef533" />
+        <option value="jdk-17.0.9-corretto-17.0.9-8336523bb0d9-9b5c8e75" />
       </set>
     </attachedChunks>
   </component>
@@ -141,7 +140,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703701420787</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Start new Project">
+      <option name="closed" value="true" />
+      <created>1703761075442</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703761075442</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Start new Project">
+      <option name="closed" value="true" />
+      <created>1703789607465</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703789607465</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -149,6 +164,7 @@
     <MESSAGE value="add classes" />
     <MESSAGE value="add exception" />
     <MESSAGE value="Start Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start Project" />
+    <MESSAGE value="Start new Project" />
+    <option name="LAST_COMMIT_MESSAGE" value="Start new Project" />
   </component>
 </project>

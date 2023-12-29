@@ -28,7 +28,7 @@ R
 "src/hu/nero/car/PassengersCar.java,0/0/00f7766dee5cd3363b19c1f65764b94779b08d3f
 L
 src/hu/nero/model/Camry.java,f/e/fef3a7cc9b6ddd3ea1e57b4c8b4fd737cfac3869
-U
-%src/hu/nero/car/StartCarExeption.java,f/b/fb7735d97c6f4a6e806461c91a9cb3be911564d5
 V
 &src/hu/nero/car/StartCarException.java,2/8/28b7cdc4410868aca9200fabd099905ad73716fa
+L
+src/hu/nero/car/TypeCar.java,c/e/ceaeede3b33880479b74d609b5b99fdd0c7062a0

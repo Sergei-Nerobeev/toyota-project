@@ -3,6 +3,7 @@ package hu.nero.car;
 public abstract class Car {
   private String color;
   private int maxSpeed;
+  private TypeCar typeCar;
   private TransmissionType transmissionType;
   private boolean isMoving;
   private double price;
@@ -19,9 +20,10 @@ public abstract class Car {
   private boolean spareWheel;
   private boolean powerOutlet;
 
-  public Car(String color, int maxSpeed, TransmissionType transmissionType, double price) {
+  public Car(String color, int maxSpeed, TransmissionType transmissionType, TypeCar typeCar, double price) {
     this.color = color;
     this.maxSpeed = maxSpeed;
+    this.typeCar = typeCar;
     this.transmissionType = transmissionType;
     this.price = price;
     this.wheels = new Wheel[4];

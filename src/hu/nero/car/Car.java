@@ -7,10 +7,11 @@ public abstract class Car {
   private TransmissionType transmissionType;
   private boolean isMoving;
   private double price;
+  protected Wheel wheel;
   private Wheel[] wheels;
-  private FuelTank fuelTank;
-  private Engine engine;
-  private ElectricalSystem electricalSystem;
+  protected FuelTank fuelTank;
+  protected Engine engine;
+  protected ElectricalSystem electricalSystem;
   private Light light;
   private boolean cruiseControl;
   private boolean roofState;
@@ -20,22 +21,21 @@ public abstract class Car {
   private boolean spareWheel;
   private boolean powerOutlet;
 
-  public Car(String color, int maxSpeed, TransmissionType transmissionType, TypeCar typeCar, double price) {
+  public Car(TypeCar typeCar, String color, int maxSpeed, TransmissionType transmissionType, double price,
+             Wheel wheel, Wheel[] wheels, FuelTank fuelTank) {
+
+    this.typeCar = typeCar;
     this.color = color;
     this.maxSpeed = maxSpeed;
-    this.typeCar = typeCar;
     this.transmissionType = transmissionType;
     this.price = price;
-    this.wheels = new Wheel[4];
+    this.wheel = new Wheel();
+    this.wheels = new Wheel[0];
     this.fuelTank = new FuelTank();
     this.engine = new Engine();
     this.electricalSystem = new ElectricalSystem();
     this.light = new Light();
 
-    for (int i = 0; i < 4; i++) {
-      wheels[i] = new Wheel();
-
-    }
     this.cruiseControl = false;
     this.roofState = false;
     this.cargoCapacity = 0;
@@ -47,10 +47,13 @@ public abstract class Car {
 
   public abstract void additionalOption(); // interface?
 
-  public abstract void startMoving() throws StartCarException;
+  public void startMoving() throws StartCarException {
+
+    }
 
   public void stopMoving() {
     isMoving = false;
+    System.out.println("Car is not moving");
   }
 
   public void tornOnLight() {
@@ -58,3 +61,6 @@ public abstract class Car {
   }
 
 }
+
+
+

@@ -24,11 +24,13 @@ M
 src/hu/nero/car/FuelTank.java,b/f/bf99ebcb08b6c802243fb25540e569a8be55fc5a
 U
 %src/hu/nero/car/ElectricalSystem.java,3/7/37822f5ca4b84553c18b17429dd722c712e8094c
-R
-"src/hu/nero/car/PassengersCar.java,0/0/00f7766dee5cd3363b19c1f65764b94779b08d3f
 L
 src/hu/nero/model/Camry.java,f/e/fef3a7cc9b6ddd3ea1e57b4c8b4fd737cfac3869
 V
 &src/hu/nero/car/StartCarException.java,2/8/28b7cdc4410868aca9200fabd099905ad73716fa
 L
 src/hu/nero/car/TypeCar.java,c/e/ceaeede3b33880479b74d609b5b99fdd0c7062a0
+N
+src/hu/nero/model/Addatel.java,1/4/146f6a9d44f0c1cddcd499e3e6ca5897c80d9a50
+P
+ src/hu/nero/model/Checkable.java,2/9/2957507c7732ec3ab63b0766ca1e8d04fcb1b424

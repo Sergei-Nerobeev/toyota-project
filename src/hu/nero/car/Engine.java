@@ -6,4 +6,8 @@ public class Engine {
   public Engine() {
     this.isOn = true;
   }
+
+  public boolean isOn() {
+    return isOn;
+  }
 }

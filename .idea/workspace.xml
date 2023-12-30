@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20fcd462-e6df-43b4-ba16-e321e6bb9b99" name="Changes" comment="Start new Project">
-      <change afterPath="$PROJECT_DIR$/src/hu/nero/car/TypeCar.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7ee3a54072ca2d0e65c792fa7e3cbb66554ab1c5" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7ee3a54072ca2d0e65c792fa7e3cbb66554ab1c5" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hu/nero/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/Runner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hu/nero/car/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/car/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hu/nero/car/PassengersCar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/nero/car/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/car/Engine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/nero/car/FuelTank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/car/FuelTank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/nero/car/TypeCar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/car/TypeCar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hu/nero/car/Wheel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/car/Wheel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/hu/nero/model/Camry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/hu/nero/model/Camry.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +27,7 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -40,28 +43,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Runner.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;D:/workspace/toyota-project/src/Main.java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.sourceCode.Java&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Runner.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "onboarding.tips.debug.path": "D:/workspace/toyota-project/src/Main.java",
+    "settings.editor.selected.configurable": "preferences.sourceCode.Java"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
-      &quot;TEXT&quot;
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "TEXT"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="hu.nero.car" />
       <recent name="hu.nero" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="hu.nero.model" />
     </key>
   </component>
   <component name="RunManager">
@@ -156,7 +162,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703789607465</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Start new Project">
+      <option name="closed" value="true" />
+      <created>1703872156362</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703872156363</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -166,5 +180,29 @@
     <MESSAGE value="Start Project" />
     <MESSAGE value="Start new Project" />
     <option name="LAST_COMMIT_MESSAGE" value="Start new Project" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/hu/nero/car/Car.java</url>
+          <line>49</line>
+          <properties class="hu.nero.car.Car" method="startMoving">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/hu/nero/model/Camry.java</url>
+          <line>17</line>
+          <properties class="hu.nero.model.Camry" method="startMoving">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

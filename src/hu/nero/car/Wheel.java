@@ -9,17 +9,17 @@ public class Wheel {
     this.radius = 0;
   }
 
-  public void replaceWheel(Wheel wheel) {
-    if (this.radius == wheel.getRadius()) {
-      this.radius = wheel.getRadius();
-    }
-  }
-
-  public boolean isFlat() {
+  public boolean getIsFlat() {
     return isFlat;
   }
 
   public int getRadius() {
     return radius;
+  }
+
+  public void replaceWheel(Wheel wheel) {
+    if (this.radius == wheel.getRadius()) {
+      this.radius = wheel.getRadius();
+    }
   }
 }
